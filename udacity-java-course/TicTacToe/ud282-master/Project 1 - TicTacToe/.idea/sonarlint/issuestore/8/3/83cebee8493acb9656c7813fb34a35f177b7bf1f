@@ -1,0 +1,19 @@
+
+d
+java:S1192¥"GDefine a constant instead of duplicating this literal "X wins" 8 times.(™Á8ÆÕóŠÂ.
+?
+java:S2140z")Use "java.util.Random.nextInt()" instead.(Ç€Ç’
+e	java:S117w"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë­¹
+?
+java:S2140{")Use "java.util.Random.nextInt()" instead.(ÂÆ ü
+T
+java:S1197æ"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+7
+java:S1659w""Declare "ai_j" on a separate line.(ë­¹
+e	java:S117w"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë­¹
+2
+java:S3626‹"Remove this redundant jump.(ûÁİ…
+p
+java:S3776—"RRefactor this method to reduce its Cognitive Complexity from 50 to the 15 allowed.(¯×ŸÏ8úß‰‹Â.
+j
+java:S1192Ã"GDefine a constant instead of duplicating this literal "O wins" 8 times.(‡Ñëîøÿÿÿÿ8¬÷—‹Â.

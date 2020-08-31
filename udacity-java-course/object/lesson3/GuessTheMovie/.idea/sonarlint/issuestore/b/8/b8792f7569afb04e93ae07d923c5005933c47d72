@@ -1,15 +1,19 @@
 
-T	java:S106
-"9Replace this use of System.out or System.err by a logger.(îº°8°ˆ¤ÞÃ.
-b
-java:S1854"@Remove this useless assignment to local variable "currentguess".(Î¢ø¨øÿÿÿÿ8¬íÚÞÃ.
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü„‡Çýÿÿÿÿ8ù„•ÞÃ.
-]	java:S125"<This block of commented-out lines of code should be removed.(æŸ»ëÿÿÿÿÿ8¬¶ÒÞÃ.
-S
-java:S1481"1Remove this unused "currentguess" local variable.(Î¢ø¨øÿÿÿÿ8¬íÚÞÃ.
-V
-java:S1128"4Remove this unused import 'java.util.regex.Pattern'.(Ã•…Äúÿÿÿÿ8ÏÁïÞÃ.
-U
-java:S1481"3Remove this unused "lettersGuessed" local variable.(Û¢¡úþÿÿÿÿ8î˜¾ÞÃ.
 0
 java:S1220""Move this file to a named package.
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü„‡Çýÿÿÿÿ8ù„•ÞÃ.
+Z	java:S106."9Replace this use of System.out or System.err by a logger.(Š¿Õðüÿÿÿÿ8î‰ñˆÄ.
+U	java:S106'"9Replace this use of System.out or System.err by a logger.(ë¡™ø8´ä’áÃ.
+T	java:S106&"9Replace this use of System.out or System.err by a logger.(îº°8ž¤àÃ.
+T	java:S106+"9Replace this use of System.out or System.err by a logger.(€à¥T8ýÜðÿÃ.
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Ü„‡Çýÿÿÿÿ8ÁáöˆÄ.
+T	java:S106"9Replace this use of System.out or System.err by a logger.(îº°8°ˆ¤ÞÃ.
+V
+java:S1128"4Remove this unused import 'java.util.regex.Pattern'.(Ã•…Äúÿÿÿÿ8ÏÁïÞÃ.
+Z	java:S1060"9Replace this use of System.out or System.err by a logger.(âïÝ¤úÿÿÿÿ8ý’áÃ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(–Í¨õ8±´þþÃ.
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(ƒ»ä˜ýÿÿÿÿ8ž¤àÃ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(„ ´“8ˆÀùàÃ.
+T	java:S106,"9Replace this use of System.out or System.err by a logger.(îº°8ž¤àÃ.
+]	java:S125"<This block of commented-out lines of code should be removed.(æŸ»ëÿÿÿÿÿ8¬¶ÒÞÃ.

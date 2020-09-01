@@ -8,7 +8,8 @@ public class Game {
 
         int guessesLeft = 10;
 
-        String hidden = new String(new char[randomMovie.length()]).replace((char) '\0', '_');git
+        String hidden = randomMovie.replaceAll("[a-z]", "_");
+//        String hidden = new String(new char[randomMovie.length()]).replace('\0', '_');
         System.out.println("Your movie to guess is below.");
         System.out.println(hidden);
 
@@ -35,8 +36,13 @@ public class Game {
 
                 }
                 hidden = String.valueOf(hiddenChars);
-                System.out.println(hidden);
-                System.out.println("Guess another!");
+                if (!hidden.contains("_")) {
+                    System.out.println("YOU WON!!!");
+                    break;
+                } else {
+                    System.out.println(hidden);
+                    System.out.println("Guess another!");
+                }
             } else {
                 guessesLeft--;
                 System.out.println("There is no " + guess + " letter. Try again!");
